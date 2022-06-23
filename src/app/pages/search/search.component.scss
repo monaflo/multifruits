@@ -1,27 +1,29 @@
 .product-container {
   padding: 10px;
   display: flex;
-  margin-bottom: 15px;
+  margin-top: 80px;
   border: 2px solid black;
+  background-color: hwb(272 76% 5% / 0.349);
+  color: black;
 }
-  h2 {
-    margin-bottom: 15px;
-    cursor: pointer;
+h2 {
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+div {
+  padding: 15px;
+  > * {
+    margin-bottom: 40px;
   }
-  div {
-    padding: 15px;
-    > * {
-      margin-bottom: 40px;
-    }
-  }
-  h3 {
-    margin-bottom: 15px;
-    padding: 10px;
-  }
-  .cos-cump{
-    cursor: pointer;
-  }
-.dime{
+}
+h3 {
+  margin-bottom: 15px;
+  padding: 10px;
+}
+.cos-cump {
+  cursor: pointer;
+}
+.dime {
   width: 200px;
   height: 200px;
 }

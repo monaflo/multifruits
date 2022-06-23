@@ -1,4 +1,4 @@
-
+<div class="header"></div>
 <div class="titlul"><b>MULTIFRUIT</b></div>
 <div class="link">
   <div>
@@ -9,7 +9,7 @@
         type="search"
         (keyup)="onSearchInput($event)"
         [(ngModel)]="searchValue"
-      />
+      /></mat-form-field>
       <button
         *ngIf="searchValue"
         matSuffix
@@ -19,7 +19,7 @@
       >
         <mat-icon>close</mat-icon>
       </button>
-    </mat-form-field>
+    
     <button (click)="searchProduct()" mat-icon-button>
       <mat-icon>search</mat-icon>
     </button>

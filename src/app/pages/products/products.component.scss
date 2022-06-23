@@ -1,19 +1,13 @@
 .cos-cump {
   cursor: pointer;
 }
-.card-top{
+
+.card {
   position: relative;
   display: flex;
-  flex-direction: column;;
-  min-width: 0;
-  word-wrap: break-word;  
-  background-clip: border-box;
-  border: 1px solid black;
-  border-radius: 0.25rem;
-}
-.card {
-  padding: 10px;
-  margin: 50px;
+  padding: 5px;
+  margin: 30px;
+  background-color: hwb(272 76% 5% / 0.349);
 }
 .card img {
   width: 200px;
@@ -25,4 +19,8 @@
   transition: 00.3s ease-in-out;
   transform: scale(1.1);
 }
+.container-fluid {
+  margin-top: 50px;
+  margin-left: 80px;
 
+}

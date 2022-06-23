@@ -9,7 +9,7 @@ import { CartService } from 'src/app/service/cart.service';
   styleUrls: ['./header.component.scss'],
 })
 export class HeaderComponent implements OnInit {
-
+  
   searchValue: string = '';
   public totalProduct: number = 0;
   
@@ -45,5 +45,7 @@ export class HeaderComponent implements OnInit {
 
   showMessage(): void {
     this.snackBar.open('Please enter a fruit', '', { duration: 3000 });
+    console.log('test');
+    
   }
 }

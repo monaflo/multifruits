@@ -40,7 +40,7 @@ export class SearchComponent implements OnInit {
 
   getData(): void {
     this.productsService
-      .getProducts(//this.productTitle, this.productDescripsion)
+      .getProducts(
       ).subscribe(
         (product): void => {
           this.productList = product.filter(
@@ -49,7 +49,7 @@ export class SearchComponent implements OnInit {
                 .toLowerCase()
                 .indexOf(this.productTitle.toLowerCase()) !== -1
           );
-          // this.productList = product.Search;
+          
           console.log(product);
 
           console.log(this.productList);
@@ -60,24 +60,7 @@ export class SearchComponent implements OnInit {
       );
   }
 
-  // getData(): void {
-  //   this.productSubscribe = this.productsService
-  //     .getProducts(this.productName, this.productDescripsion)
-  //     .subscribe(
-  //       (product): void => {
-  //         this.productList = ;
-  //       },
-  //       (err: Error): void => {
-  //         console.log(err.message);
-  //       }
-  //     );
-  // }
-
-  // goToProduct(product: IProductSearch): void {
-  //   this.router.navigate(['/products', product.name]);
-
-    
-  // }
+ 
   ngOnDestroy(): void {
     this.productSubscribe.unsubscribe();
   }
