@@ -1,0 +1,12 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  #page-content {
+    flex: 1;
+  }
+  background-image: url(../assets/imagini/20210707_143538-1.jpg);
+  background-size: auto;
+  background-size: cover;
+}

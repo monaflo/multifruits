@@ -1,0 +1,27 @@
+<div class="card-top container-fluid">
+  <div class="row">
+    <ng-container *ngFor="let product of productList">
+      <div class="card col-md-2">
+        <img [src]="product.img" alt="" />
+        <h3
+          style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis"
+        >
+          {{ product.title }}
+        </h3>
+        <h5>{{ product.name }}</h5>
+
+        <p>{{ product.description }}</p>
+        <p>
+          <strong>Price:</strong> Eur {{ product.price }} 
+        </p>
+        <p>Quantity: {{ product.quantity }} kg</p>
+        <mat-icon
+          class="cos-cump"
+          (click)="addtoCart(product)"
+          style="color: red"
+          >add_shopping_cart</mat-icon
+        >
+      </div>
+    </ng-container>
+  </div>
+</div>
