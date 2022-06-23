@@ -9,10 +9,9 @@ import { CartService } from 'src/app/service/cart.service';
   styleUrls: ['./header.component.scss'],
 })
 export class HeaderComponent implements OnInit {
-  
   searchValue: string = '';
   public totalProduct: number = 0;
-  
+
   constructor(
     public router: Router,
     public snackBar: MatSnackBar,
@@ -26,7 +25,8 @@ export class HeaderComponent implements OnInit {
   }
 
   clearValue(): void {
-    this.searchValue = ' ';
+    this.router.navigate(['/products']);
+    this.searchValue = '';
   }
 
   searchProduct(): void {
@@ -40,12 +40,13 @@ export class HeaderComponent implements OnInit {
   onSearchInput(ev: KeyboardEvent): void {
     if (ev.key === 'Enter') {
       this.searchProduct();
+    } else {
+      this.searchValue = (ev.target as HTMLInputElement).value;
     }
   }
 
   showMessage(): void {
     this.snackBar.open('Please enter a fruit', '', { duration: 3000 });
     console.log('test');
-    
   }
 }

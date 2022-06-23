@@ -5,37 +5,31 @@
     <mat-form-field class="example-form-field" appearance="outline">
       <mat-label></mat-label>
       <input
+        [value]="searchValue"
         matInput
         type="search"
         (keyup)="onSearchInput($event)"
-        [(ngModel)]="searchValue"
-      /></mat-form-field>
-      <button
-        *ngIf="searchValue"
-        matSuffix
-        mat-icon-button
-        aria-label="Clear"
-        (click)="clearValue()"
-      >
-        <mat-icon>close</mat-icon>
-      </button>
-    
+    /></mat-form-field>
+    <button
+      *ngIf="searchValue"
+      matSuffix
+      mat-icon-button
+      aria-label="Clear"
+      (click)="clearValue()"
+    >
+      <mat-icon>close</mat-icon>
+    </button>
+
     <button (click)="searchProduct()" mat-icon-button>
       <mat-icon>search</mat-icon>
     </button>
   </div>
   <button mat-raised-button routerLink="/aboutUs">ABOUT US</button>
   <button mat-raised-button routerLink="/products">PRODUCTS</button>
-  <button mat-raised-button routerLink="/visitUs">
-    VISIT US
-  </button>
-  
+  <button mat-raised-button routerLink="/visitUs">VISIT US</button>
+
   <div class="cart">
-  <mat-icon class="cos-cump" routerLink="/cart">add_shopping_cart</mat-icon>
-  <div class="cart-value">{{totalProduct}}</div>
+    <mat-icon class="cos-cump" routerLink="/cart">add_shopping_cart</mat-icon>
+    <div class="cart-value">{{ totalProduct }}</div>
+  </div>
 </div>
-</div>
-
-
-
-

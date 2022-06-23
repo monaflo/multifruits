@@ -21,6 +21,7 @@ import { MatInputModule } from '@angular/material/input';
 import { FormsModule } from '@angular/forms';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FilterPipe } from './pipe/filter.pipe';
+import { ProductDetailsComponent } from './product-details/product-details.component';
 
 
 
@@ -36,6 +37,7 @@ import { FilterPipe } from './pipe/filter.pipe';
     SearchComponent,
     CartComponent,
     FilterPipe,
+    ProductDetailsComponent,
    
   ],
   imports: [

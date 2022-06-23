@@ -21,11 +21,16 @@ export class ProductsService {
 
   constructor(private http: HttpClient) {}
 
-
-
   getProducts(): Observable<IProductSearch[]> {
-  return this.http.get<IProductSearch[]>("http://localhost:3000/product").pipe(map((res: any) =>{
-    return res;
-  }))
+    return this.http
+      .get<IProductSearch[]>('http://localhost:3000/product')
+      .pipe(
+        map((res: any) => {
+          return res;
+        })
+      );
+  }
+  getProductById(id: string): Observable<IProductSearch> {
+    return this.http.get<IProductSearch>(`http://localhost:3000/product/${id}`);
   }
 }
