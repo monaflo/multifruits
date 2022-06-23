@@ -1,0 +1,112 @@
+{
+  "product": [
+    {
+      "id": 1,
+      "title": "Cherries",
+      "name": "Stella",
+      "description": " the fruit is large (7-8 g), cordiform, bright red;-the pulp is of medium firmness;-the fruit is susceptible to cracking;-the flesh is stony, crunchy, red, sweet-bitter, pleasant to the taste.",
+      "img": "assets/imagini/20210707_143333.jpg",
+      "price": 15,
+      "quantity": 1
+    },
+    {
+      "id": 2,
+      "title": "Cherries",
+      "name": "Van",
+      "description": "- The fruit is large, sweet, with a special aroma- the fruit is bright red ",
+      "img": "assets/imagini/20210707_144116.jpg",
+      "price": 15,
+      "quantity": 1
+    },
+    {
+      "id": 3,
+      "title": "Cherries",
+      "name": "Kordia",
+      "description": "- the fruits are large (8-11gr), cordiform, elongated, red brilliant;- the pulp is stony, juicy, sweet taste, non-adherent to the stone.",
+      "img": "assets/imagini/kordia.png",
+      "price": 15,
+      "quantity": 1
+    },
+    {
+      "id": 4,
+      "title": "Cherries",
+      "name": "Boambe de Cotnari",
+      "description": "-Boambe de Cotnari variety is considered the most valuable cherry variety of all local varieties; -the fruit is large (10gr), cordiform, round with colored skin golden yellow with reddish pink spots.-stony pulp, yellow, sweet and harmoniously sour.",
+      "img": "assets/imagini/boamba.png",
+      "price": 15,
+      "quantity": 1
+    },
+    {
+      "id": 5,
+      "title": "Pear",
+      "name": "Xenia",
+      "description": "very large, fruits of about 200-360 grams with a diameter of 7-9 cm, green in color, and after storage it becomes yellow-green.",
+      "img": "assets/imagini/xenia.png",
+      "price": 15,
+      "quantity": 1
+    },
+    {
+      "id": 6,
+      "title": "Pear",
+      "name": "Conference",
+      "description": "medium-large fruit, fruit of about 200-300 grams with a diameter of 5-8 cm, sweet and aromatic, it is yellow",
+      "img": "assets/imagini/conference.png",
+      "price": 15,
+      "quantity": 1
+    },
+    {
+      "id": 7,
+      "title": "Plum",
+      "name": "Jubileum",
+      "description": "fruit shape spherical, very large 50 grams, pink-reddish color, yellow pulp, juicy.",
+      "img": "assets/imagini/Jubileum.png",
+      "price": 15,
+      "quantity": 1
+    },
+    {
+      "id": 8,
+      "title": "Plum",
+      "name": "Victoria",
+      "description": "spherical shape, slightly asymmetrical, purple color, yellow-green pulp, medium juicy.",
+      "img": "assets/imagini/victoria.png",
+      "price": 15,
+      "quantity": 1
+    },
+    {
+      "id": 9,
+      "title": "Apple",
+      "name": "Idared",
+      "description": "medium-large fruit, 170-200 grams, sour to sweet taste, white pulp, consistent",
+      "img": "assets/imagini/idared.png",
+      "price": 15,
+      "quantity": 1
+    },
+    {
+      "id": 10,
+      "title": "Apple",
+      "name": "Golden Delicious",
+      "description": "golden-yellow fruit, medium-large size, 160-180 grams, sweet with specific aroma",
+      "img": "assets/imagini/golden.png",
+      "price": 15,
+      "quantity": 1
+    },
+    {
+      "id": 11,
+      "title": "Apple",
+      "name": "Starkimson",
+      "description": "large fruit, over 225 grams, red-purple color, sweet and without acidity, with intense aroma",
+      "img": "assets/imagini/starkimson.png",
+      "price": 15,
+      "quantity": 1
+    },
+    {
+      "id": 12,
+      "title": "Apple",
+      "name": "Braeburn",
+      "description": "medium fruit, 180 grams, intense red color with metallic reflections, sweet, slightly acidic with specific aroma",
+      "img": "assets/imagini/braeburn.png",
+      "price": 15,
+      "quantity": 1
+    }
+  ]
+}
