@@ -1,0 +1,52 @@
+
+:host{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+.link {
+  display: flex;
+  justify-content: end;
+  margin-top: -40px;
+  margin-right: 100px;
+}
+.titlul {
+  margin-left: 40px;
+  font-size: 40px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
+  color: blueviolet;
+}
+
+.mat-raised-button {
+  margin-left: 15px;
+}
+.cart {
+  position: relative;
+}
+
+.cos-cump {
+  position: absolute;
+  font-size: 30px;
+  margin-left: 15px;
+  cursor: pointer;
+  color: bisque;
+}
+.cart-value {
+  position: absolute;
+  top: -15px;
+  right: -60px;
+  background-color: bisque;
+  border: 1px solid;
+  border-radius: 50%;
+  padding: 0.0001px 7px;
+  cursor: pointer;
+}
+
+::ng-deep mat-form-field.mat-form-field-appearance-outline {
+  .mat-form-field-wrapper {
+    padding: 10;
+  }
+}
